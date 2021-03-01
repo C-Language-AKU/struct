@@ -1,19 +1,19 @@
 #include<stdio.h>
 
-typedef struct{//first
+typedef struct{
 
 int hours,minutes,seconds;
 
 }time;
  time T1,T2;
- time convertS( int s){//third
+ time convertS( int s){
 
  T1.hours=s/3600;
  T1.minutes=(s-(T1.hours*3600))/60;
  T1.seconds=s-(T1.hours*3600)-(T1.minutes*60);
  return T1;
  }
-   int convertT1(time T1){//second
+   int convertT1(time T1){
 
    int Tseconds1=T1.seconds+(T1.hours*3600)+(T1.minutes*60);
    return Tseconds1;
