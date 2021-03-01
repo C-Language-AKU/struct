@@ -11,8 +11,6 @@ int hours,minutes,seconds;
  T1.hours=s/3600;
  T1.minutes=(s-(T1.hours*3600))/60;
  T1.seconds=s-(T1.hours*3600)-(T1.minutes*60);
- //printf("H:M:S %d:%d:%d \n",T1.hours,T1.minutes,T1.seconds);
-
  return T1;
  }
    int convertT1(time T1){//second
