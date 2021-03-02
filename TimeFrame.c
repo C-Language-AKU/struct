@@ -32,6 +32,7 @@ int hours,minutes,seconds;
  	int Tminutes=(sumS-(Thours*3600))/60;
         int Tseconds=sumS-(Thours*3600)-(Tminutes*60);
 	printf("New H:M:S %d:%d:%d \n",Thours,Tminutes,Tseconds);
+	}
 int main(){
 int time,hours,minutes,seconds;
 
